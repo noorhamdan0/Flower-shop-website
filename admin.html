@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            florafolia
+        </title>
+        <link rel="stylesheet" href="admin_css.css">
+        
+        <script src="js-flora.js"></script>
+        <meta charset="utf-8"/> <!--this for languge-->
+        <meta http-equiv="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <meta  name="descripction" content="flora"/>
+      
+         <!-- this is comment  -->
+
+    </head>
+    <body  > 
+        
+
+        <div class="sidebar">
+            
+            <header id="head" onclick="main()"> florafolia  </header>
+                 
+            <ul>
+                <li><a href="#"onclick="col1()"  id="li1" >Orders</a></li>
+                <li><a href="#" onclick="col2()"  id="li2">add prodect</a></li>
+                <li><a href="#" onclick="col3()"  id="li3">delet prodect</a></li>
+                <li><a href="#" onclick="col4()"  id="li4">contact</a></li>
+            </ul>
+        </div>
+        <div id="leaves">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i> 
+          </div>
+          
+        
+        <div id="wel"> 
+            
+            <a href="#" class="logo">fl<span id="o">o</span>raf<span>o</span>lia <div id="welcome"> welcome back</div></a>
+            
+        </div>
+
+      
+       
+        <div id="orders">
+         <div>
+         <input  id="butons0" type="button" value="add order">
+         <input   id="butons1" type="button" value="delet order">
+         <input   id="butons2" type="button" value="save">
+         </div>
+            <table style="width:70%" >
+                <tr>
+                  <th>order number</th>
+                  <th >date</th>
+                  <th>address</th>
+                  <th>prodect</th>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+        </div >
+        <div id="addp">
+
+           <div>prodect name <input type="text"  id="form1"></div> 
+           <div>prodect price <input type="text"  id="form2"></div> 
+           
+           <div>add photo &nbsp;&nbsp;&nbsp;&nbsp;<input type="file" id="form0"></div> 
+           <p>
+            <label class="custom-select">
+             <span id="sel"> Select section:</span>
+              <select>
+                  <option>Sushi</option>
+                  <option>Blue cheese with crackers</option>
+                  <option>Steak</option>
+                  <option>Other</option>
+              </select>
+            </label>
+          </p>
+          <input type="button" value="ADD" id="bt">
+           
+
+        </div>
+        <div id="delp">
+            <div>prodect name <input type="text"  id="form1"></div> 
+            <div>prodect price <input type="text"  id="form2"></div> 
+            
+            <div>add photo &nbsp;&nbsp;&nbsp;&nbsp;<input type="file" id="form0"></div> 
+            <p>
+             <label class="custom-select">
+              <span id="sel"> Select section:</span>
+               <select>
+                   <option>Sushi</option>
+                   <option>Blue cheese with crackers</option>
+                   <option>Steak</option>
+                   <option>Other</option>
+               </select>
+             </label>
+           </p>
+           <input type="button" value="DELETE" id="bt">
+        </div>
+        <div id="cont"></div>
+    </body>
+</html>

@@ -1,0 +1,292 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    display: flex;
+    
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+
+}
+.flower_fram{
+
+    width: -30px;
+    height: 800px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 30px;
+
+}
+
+.flower{
+    position: fixed   ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    transform: scale(0.6);
+    animation: rotate 18s linear infinite;
+       
+
+}
+.leaf-body
+{
+    position: absolute;
+    left: 0;
+    transform-origin: 350px;
+    transform: rotate(calc(360deg/10*var(--i)));
+    
+}
+.leaf-body-item{
+    width: 200px;
+    height: 390px;
+    border-radius: 100%;
+    background-color: rgb(98, 130, 100);
+    transform: rotate(90deg);
+    opacity: 0.6;
+    
+
+}
+.leaf-c
+{
+width: 400px;
+height: 400px;
+border-radius: 400px;
+background-color:#ce8a9a;
+z-index: 50;
+opacity: 0.95;
+}
+
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg) scale(0.6);
+    }
+    100%{
+        transform: rotate(360deg) scale(0.6);
+    }
+}
+
+
+.flower_fram2{
+
+     width: -30px; 
+    height: 800px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 30px;
+    
+
+}
+
+.flower2{
+    position: fixed   ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    transform: scale(0.6);
+    
+    
+    -webkit-transition: -webkit-transform 0.5s;
+
+}
+.leaf-body2
+{
+    position: absolute;
+    left: 0;
+    transform-origin: 350px;
+    transform: rotate(calc(360deg/10*var(--i)));
+    -webkit-transition: -webkit-transform 1.5s;
+}
+.leaf-body2-item{
+    width: 200px;
+    height: 390px;
+    border-radius: 100%;
+    background-color:#ce8a9a;
+    transform: rotate(90deg);
+    opacity: 0.95;
+   
+
+}
+.leaf2-c
+{
+width: 400px;
+height: 400px;
+border-radius:700px;
+background-color:#ce8a9a;
+z-index: 20;
+position: fixed   ;
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: rgb(98, 130, 100); */
+opacity: 0.95;
+
+}
+
+
+.flower_fram3{
+
+    width: -30px; 
+    height: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 30px;
+
+}
+
+.flower3{
+    position: fixed   ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    transform: scale(0.6);
+    /* animation: rotate 18s linear infinite; */
+       
+
+}
+.leaf-body3
+{
+    position: absolute;
+    left: 0;
+    transform-origin: 350px;
+    transform: rotate(calc(360deg/10*var(--i)));
+    
+}
+.leaf-body3-item{
+    width: 300px;
+    height: 490px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(90deg);
+    
+    
+
+}
+.leaf3-c
+{
+width: 400px;
+height: 400px;
+border-radius: 700px;
+position: fixed   ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color:  rgb(200, 107, 123);
+z-index: 50;
+-webkit-transition: -webkit-transform 1.5s;
+}
+
+
+
+
+@keyframes rotate2{
+    0%{
+        transform: rotate(360deg) scale(0.6);
+    }
+    100%{
+        transform: rotate(0deg) scale(0.6);
+    }
+}
+ 
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+
+@keyframes zoomout{
+    from{
+     width: 0;
+     height: 0;
+    }
+    to{
+        width: 300;
+        height: 400;
+    }
+}
+
+@keyframes fadein2{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+} 
+@font-face{
+    font-family:'flower';
+    src:url(Flower\ Of\ Love.ttf);
+}
+
+.leaf-body2:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
+ .leaf3-c:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+    background-color:rgb(217, 198, 136);
+} 
+.word{
+    letter-spacing: 6px;
+    font-family: 'flower',sans-serif;
+    font-size: 7rem;
+    color:rgb(234, 225, 225);
+    /* font-weight: bolder; */
+}
+
+.sq{
+    width: 800px;
+    height: 500px;
+    
+    background-color: rgb(98, 130, 100);
+    opacity: 0.6;
+    border-radius: 50px;
+    transform: (450px);  
+    display: none;
+     position: fixed ;  
+    /* align-items: center;
+    justify-content:center; */
+     margin-top: 180px;
+    
+
+}
+#sin{
+    position: fixed ; 
+    margin-top: 40px;
+    align-items: center;
+    justify-content:center;
+}
+#allp{
+    position: fixed ; 
+    /* align-items: center; */
+    /* justify-content:center; */
+}
+
+#sup{
+    position: fixed ; 
+    margin-top: 10px;
+    align-items: center;
+    justify-content:center;
+}
